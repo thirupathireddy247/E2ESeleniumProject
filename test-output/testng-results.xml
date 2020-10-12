@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53206" started-at="2020-08-11T11:23:51 IST" finished-at="2020-08-11T11:24:44 IST">
+    <groups>
+    </groups>
+    <test name="Validatetitle" duration-ms="24114" started-at="2020-08-11T11:23:51 IST" finished-at="2020-08-11T11:24:15 IST">
+      <class name="Framework.ValidateTitle">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Framework.ValidateTitle@2f4948e4]" name="beforetest" is-config="true" duration-ms="23510" started-at="2020-08-11T11:23:51 IST" finished-at="2020-08-11T11:24:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="basepagenaviation()[pri:0, instance:Framework.ValidateTitle@2f4948e4]" name="basepagenaviation" duration-ms="191" started-at="2020-08-11T11:24:15 IST" finished-at="2020-08-11T11:24:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenaviation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framework.ValidateTitle@2f4948e4]" name="teardown" is-config="true" duration-ms="341" started-at="2020-08-11T11:24:15 IST" finished-at="2020-08-11T11:24:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.ValidateTitle -->
+    </test> <!-- Validatetitle -->
+    <test name="Validatenavigationbar" duration-ms="8985" started-at="2020-08-11T11:24:15 IST" finished-at="2020-08-11T11:24:24 IST">
+      <class name="Framework.ValidateNavigationbar">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:Framework.ValidateNavigationbar@4d1c00d0]" name="initilaize" is-config="true" duration-ms="8483" started-at="2020-08-11T11:24:15 IST" finished-at="2020-08-11T11:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="baseinitilaization()[pri:0, instance:Framework.ValidateNavigationbar@4d1c00d0]" name="baseinitilaization" duration-ms="187" started-at="2020-08-11T11:24:24 IST" finished-at="2020-08-11T11:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseinitilaization -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framework.ValidateNavigationbar@4d1c00d0]" name="teardown" is-config="true" duration-ms="310" started-at="2020-08-11T11:24:24 IST" finished-at="2020-08-11T11:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.ValidateNavigationbar -->
+    </test> <!-- Validatenavigationbar -->
+    <test name="Validatehomepage" duration-ms="19898" started-at="2020-08-11T11:24:24 IST" finished-at="2020-08-11T11:24:44 IST">
+      <class name="Framework.Homepage">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:Framework.Homepage@5dda768f]" name="initilaize" is-config="true" duration-ms="3209" started-at="2020-08-11T11:24:24 IST" finished-at="2020-08-11T11:24:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.Homepage@5dda768f]" name="basepagenavigation" duration-ms="9013" started-at="2020-08-11T11:24:28 IST" data-provider="getdata" finished-at="2020-08-11T11:24:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfdjfhdjfhd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.Homepage@5dda768f]" name="basepagenavigation" duration-ms="3307" started-at="2020-08-11T11:24:37 IST" data-provider="getdata" finished-at="2020-08-11T11:24:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framework.Homepage@5dda768f]" name="teardown" is-config="true" duration-ms="4357" started-at="2020-08-11T11:24:40 IST" finished-at="2020-08-11T11:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.Homepage -->
+    </test> <!-- Validatehomepage -->
+  </suite> <!-- Suite -->
+</testng-results>

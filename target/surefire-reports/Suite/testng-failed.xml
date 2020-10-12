@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Framework.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Validatetitle(failed)" verbose="0">
+    <classes>
+      <class name="Framework.ValidateTitle">
+        <methods>
+          <include name="basepagenaviation"/>
+          <include name="teardown"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Framework.ValidateTitle -->
+    </classes>
+  </test> <!-- Validatetitle(failed) -->
+  <test thread-count="5" name="Validatenavigationbar(failed)" verbose="0">
+    <classes>
+      <class name="Framework.ValidateNavigationbar">
+        <methods>
+          <include name="teardown"/>
+          <include name="baseinitilaization"/>
+          <include name="initilaize"/>
+        </methods>
+      </class> <!-- Framework.ValidateNavigationbar -->
+    </classes>
+  </test> <!-- Validatenavigationbar(failed) -->
+  <test thread-count="5" name="Validatehomepage(failed)" verbose="0">
+    <classes>
+      <class name="Framework.Homepage">
+        <methods>
+          <include name="initilaize"/>
+          <include name="basepagenavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Framework.Homepage -->
+    </classes>
+  </test> <!-- Validatehomepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
